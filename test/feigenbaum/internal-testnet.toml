@@ -1,5 +1,5 @@
 # Example genesis with internal testnet settings.
-genesis_time = "2021-10-08T18:00:00Z"
+genesis_time = "2021-10-08T16:00:00Z"
 
 # 4 genesis validators.
 [validator.validator-1]
