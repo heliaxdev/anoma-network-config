@@ -1,0 +1,27 @@
+[ledger]
+base_dir = ".anoma"
+chain_id = "internal-0.ba02f0fc0f5f939c753"
+genesis_time = "2021-10-08T16:00:00+00:00"
+tendermint = ".anoma/internal-0.ba02f0fc0f5f939c753/tendermint"
+db = ".anoma/internal-0.ba02f0fc0f5f939c753/db"
+ledger_address = "127.0.0.1:26658"
+rpc_address = "127.0.0.1:26657"
+p2p_address = "0.0.0.0:26656"
+p2p_persistent_peers = ["tcp://40fcd4e839bbc569dd20fa4417eb298c3111ce5c@54.195.72.213:26656", "tcp://cb1e034db9843f98eaaac26627810354b40cf4b0@79.125.112.218:26656", "tcp://9d03992098d9e4599385a4f51e1e59506bdcc0ab@52.210.23.30:26656", "tcp://b7d56a6fd65377abeb093fbd9572a36f64c01295@63.34.55.152:26656"]
+p2p_pex = true
+wasm_dir = "wasm"
+
+[intent_gossiper]
+address = "/ip4/0.0.0.0/tcp/26659"
+topics = ["asset_v0"]
+subscription_filter = "asset_v\\d{1,2}"
+
+[intent_gossiper.gossiper]
+address = "F3731A9D5CBF4178F45753ACEEAFC5789F6C5A1C"
+key = [71, 23, 117, 202, 180, 240, 181, 229, 117, 17, 105, 71, 201, 25, 31, 249, 217, 8, 124, 103, 81, 34, 139, 115, 19, 210, 200, 170, 33, 165, 185, 3, 237, 18, 237, 9, 210, 171, 193, 62, 144, 176, 158, 75, 59, 100, 220, 238, 43, 214, 185, 100, 90, 178, 158, 193, 184, 111, 204, 178, 72, 230, 221, 13]
+
+[intent_gossiper.discover_peer]
+max_discovery_peers = 16
+kademlia = true
+mdns = true
+bootstrap_peers = ["/ip4/52.210.23.30/tcp/26659/p2p/12D3KooWSgUG15p2wc6tpXkZr64nuR1CyofNGSE1XLeeNwNa84mU", "/ip4/63.34.55.152/tcp/26659/p2p/12D3KooWG1Sfz56ekFUC82cU743aj3ppWHCu7AE7hwVCkDvKkWX2", "/ip4/79.125.112.218/tcp/26659/p2p/12D3KooWEJ7GnC7zCLK9AbneVzKZ2mEygRsvsrXVNnFEa3sNqpbD", "/ip4/54.195.72.213/tcp/26659/p2p/12D3KooWBZA2LJ6dipXFCxEqgxzMmVGCiEYb9LFieeZiFUqgjdi5"]
