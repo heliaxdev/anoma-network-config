@@ -58,47 +58,47 @@ net_address = "79.125.112.218:26656"
 
 # Some tokens present at genesis.
 
-[token.xan]
+[token.XAN]
 address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
 vp = "vp_token"
 [token.xan.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.btc]
+[token.BTC]
 address = "atest1v4ehgw36xdzryve5gsc52veeg5cnsv2yx5eygvp38qcrvd29xy6rys6p8yc5xvp4xfpy2v694wgwcp"
 vp = "vp_token"
 [token.btc.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.eth]
+[token.ETH]
 address = "atest1v4ehgw36xqmr2d3nx3ryvd2xxgmrq33j8qcns33sxezrgv6zxdzrydjrxveygd2yxumrsdpsf9jc2p"
 vp = "vp_token"
 [token.eth.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.dot]
+[token.DOT]
 address = "atest1v4ehgw36gg6nvs2zgfpyxsfjgc65yv6pxy6nwwfsxgungdzrggeyzv35gveyxsjyxymyz335hur2jn"
 vp = "vp_token"
 [token.dot.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.schnitzel]
+[token.Schnitzel]
 address = "atest1v4ehgw36xue5xvf5xvuyzvpjx5un2v3k8qeyvd3cxdqns32p89rrxd6xx9zngvpegccnzs699rdnnt"
 vp = "vp_token"
-[token.schnitzel.balances]
+[token.Schnitzel.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.apfel]
+[token.Apfel]
 address = "atest1v4ehgw36gfryydj9g3p5zv3kg9znyd358ycnzsfcggc5gvecgc6ygs2rxv6ry3zpg4zrwdfeumqcz9"
 vp = "vp_token"
-[token.apfel.balances]
+[token.Apfel.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
-[token.kartoffel]
+[token.Kartoffel]
 address = "atest1v4ehgw36gep5ysecxq6nyv3jg3zygv3e89qn2vp48pryxsf4xpznvve5gvmy23fs89pryvf5a6ht90"
 public_key = ""
 vp = "vp_token"
-[token.kartoffel.balances]
+[token.Kartoffel.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
 # Some established accounts present at genesis.
