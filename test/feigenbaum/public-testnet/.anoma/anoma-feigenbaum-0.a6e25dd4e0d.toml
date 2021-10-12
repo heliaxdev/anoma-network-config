@@ -1,0 +1,267 @@
+genesis_time = "2021-10-12T00:00:00.00Z"
+[validator.validator-2]
+consensus_public_key = "20000000b6663bac3da601698002ccfb558bdfe68ae49f01f238a737391f99a39ccdaf37"
+account_public_key = "200000006fdbc44c989236afd89349ccf78e599b9dcbcf5792278e48aa73bf02fb18a4a3"
+staking_reward_public_key = "200000007e88fd37b45a24f3e6b3cf0014f8c57140d7a17423358dde37c015d55141276e"
+address = "atest1v4ehgw36xu6rgwpkxgcrg3f3xymr23zzx4prxvengdzrzsf5xvmnx33hxqcnqde3xapnzwf30x3lx0"
+staking_reward_address = "atest1v4ehgw36g4pyyd33xqerz3pkxv65gvjrgezrvs3cgep5xde5g9rrjd6rxceyxsecgsm5xdph969dpg"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-2"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-3]
+consensus_public_key = "200000005e0605654e2a22d9bf1ccb989de16b2a505314da0aee9d22479d266f0ba1399f"
+account_public_key = "200000004cba6cc684a6e0ccb2b820a67450bd6f2d62f24ea53fab3610f671ddc7eb4ef7"
+staking_reward_public_key = "20000000aa1914241559517e492dedf740e9863cb3c16122291c6e48c72435f9d1e8bf93"
+address = "atest1v4ehgw36g3qnz3fkxucygdf58ycyyd34g4ryg33cx5en2d3k8ppnxv6pgy6rgv3kggmrsvfkrhvvwe"
+staking_reward_address = "atest1v4ehgw36xscrvwzyg9q5yvjzx3znvd3jxezyysj9g5m5xdzpgdzyy3fcxs6ngd2rgvmyy3p53nwkky"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-3"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-10]
+consensus_public_key = "20000000e3964d7325bf10efe6c87dbe23c348b7e09c47ea9432d59dda3c28d2276cbbca"
+account_public_key = "200000005d94238f26820ff75b92696461d69ff298ff4fed86cf0cc8b9315fd969ef9d3e"
+staking_reward_public_key = "20000000133aabec44bd98157b8c8a44047a792cef6f1e7f18fd493e323667406ea8cba0"
+address = "atest1v4ehgw36x5uy2vfhxvmygv29xserxsf5xuervve4xqurwvehg3zr2vfeggmngd6r8yenxwfec70tds"
+staking_reward_address = "atest1v4ehgw368yun2s2yxceryvpcgg6nwdp5g9ryvvjpxapnzse3gsmy2d34xcerqse4gez5vs6ycwald6"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-10"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-4]
+consensus_public_key = "200000001b853fc9eb419461f6113f2d6d24a5a1bc1bedcdda2f9ce7504f97bf876a17f4"
+account_public_key = "2000000013ef270013b7b00f1fe8f84e5aa962e36738fb18e8743ad0f6f7e7cba4c3fa88"
+staking_reward_public_key = "20000000acbbb96e12a5721dd5e9e9fb6af397d4cc7dd8c89886da4d4731000d581a7e8a"
+address = "atest1v4ehgw36xpznzdjpx4zrx3pcggeyvv3exyenyv6pgeqnjvp4xaznxwpkgycrg333gdznys34qnue3s"
+staking_reward_address = "atest1v4ehgw36xfznw329xq65gsfexycnsdesxucy2d3sgyuyydzyxpz5xs3exscr2v3excuyydp33pcqus"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-4"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-9]
+consensus_public_key = "20000000f55afbc50efa813ace6f9d3eaac862c549d47c8554547066f8c893e64f51c969"
+account_public_key = "2000000093e3937b31922cc05ac42b379d17bc9bc84f11a28f9896f4bd9288ed9111a4b9"
+staking_reward_public_key = "200000007725a200aad33141d5d603d82dd3846538f3215c11bc402c0ac9f26bcdc044f0"
+address = "atest1v4ehgw36xpzy2dfhx9zrzwf3xvey23pjxfp52dzrgeqn23p4gdzrqsjyg4pn2djyxgeygvek5qekse"
+staking_reward_address = "atest1v4ehgw368qcn2vpcxsun23pngeprj329gvc5v32pxvu5x33jxccrqv2yxdzygwfs8yenvvfclntlsy"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-9"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-7]
+consensus_public_key = "200000005c797c8aa02f701e10f71f7b5068c58af15c8b865bc8b0a4ce1315bfcb2edb44"
+account_public_key = "200000000192aef1f58ff3055f95e20c5635e139aa004c9b78709487289bcceae3b18ea3"
+staking_reward_public_key = "20000000cbb04b74c807ae8fe007fcd844764492793d557c0cee59145ce2e2df1ed38660"
+address = "atest1v4ehgw36gcurws298ycy2wf4x3zyg3f5xsmrqd3hgepnzvfjxdq5yvpkxvcnxd6rxpp5zd29kp87yc"
+staking_reward_address = "atest1v4ehgw36gfrrwd3hgg6rwv6xx4prgsfjxguyzv3ng5u5zw2rxy65xdfcxaq5zvfn8qengs3sqle8yu"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-7"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-8]
+consensus_public_key = "200000008bfd5332abf4e27f22c7f08efcee9056b282198ad83bec1dc01ded689aaf3fee"
+account_public_key = "20000000fb6aad4719d8fe7f68331d98563f38e2c93c38eca40626ff8a06bda9fa2c3675"
+staking_reward_public_key = "20000000857d4afac263cfb9d402d87b43c92b4a81d146364e3c2bafd805584f30400fad"
+address = "atest1v4ehgw36x3zrw3fex9qnss2rxsenxs6x8yeyzse5gvm5gdpkx4z52sfcgvcrv3jzg5cnvdf5765jpa"
+staking_reward_address = "atest1v4ehgw36xdpygdf4x5mygvp5xscnvvjyxsunzvp5gccnjwpjggcryv6zgeqnj3pngvervdp3k3zsvx"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-8"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-1]
+consensus_public_key = "20000000e326b5adb73dd4e272ee8cea34a15d39bae9e13e518d3ee2967d1baca3e26bd7"
+account_public_key = "2000000082350d49f3c3cd7e56f868325deb0ebe8f9842a871052dcd352334e021026ecd"
+staking_reward_public_key = "200000003727cab6f309f431e05db84d64c1c2e27b89daa724bdfa51d7d8254c35f3093a"
+address = "atest1v4ehgw36xyuyx334xucnwsjzgdrrvsfkxdqnyvenxyunqdz9xqmnqv3hx3p5vvecgdznv33jmqn03t"
+staking_reward_address = "atest1v4ehgw36ggmyy3zpxgcnyd3nggcrssfcg5c5ydecx4q5gdpcxqmrwd3kg3zyzdzp8ppyvdfj5vjpqq"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-1"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-5]
+consensus_public_key = "20000000e6cc7e799f38ca95d1a9a66233b6ed355c278c1b9d5d1339614e134b5c04439a"
+account_public_key = "2000000031d416e8b1aeabe6adb183fae3fb377fb9a9b14e5de3df242b7aae2ea80bfcdf"
+staking_reward_public_key = "200000006f59b81d8393ed7baa187fb0163b5e4ce2b5a4d11a320a2c27a508cc83feb22d"
+address = "atest1v4ehgw36xvu5vwpj8yc52se5xdprsvzygymnsv3j8pznxsjyg5urgvphxq6r233e89p5233cmyl9lc"
+staking_reward_address = "atest1v4ehgw36g5cn2d34gyuyys33xv6njsfex3prwvpjx5mr2v3excunvsj9xvmrj3pj8y65yv2rmw663l"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-5"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-6]
+consensus_public_key = "20000000bae4f9362c2d59ed4444be9594d1fa3a2e7b48b40a9e2c002d1ca240cc773ee4"
+account_public_key = "20000000019c35276055f38ef0e836030c8d481a1d71f05af64ea933a24c05d6655eb6aa"
+staking_reward_public_key = "200000009d45a93376b67d9accb7f2546315bbad3c6d88e6ffe427be5c4636005f270d74"
+address = "atest1v4ehgw36gvcry3psxgm5xvphgeqnx33jxven2sj9xfz5gvpsgvcyyv6pxdqngwzxx5crvvj93s7z6m"
+staking_reward_address = "atest1v4ehgw36xqu5xvjxxcmnqsekxqcn2v3jgc652sesgvenxv2xg4p5v3pngdznysfexerrgs3c2hpmqk"
+tokens = 20000000
+non_staked_balance = 1000000000000
+validator_vp = "vp_user"
+staking_reward_vp = "vp_user"
+matchmaker_account = "matchmaker-6"
+matchmaker_code = "wasm/mm_token_exch.wasm"
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+[token.Kartoffel]
+address = "atest1v4ehgw36gep5ysecxq6nyv3jg3zygv3e89qn2vp48pryxsf4xpznvve5gvmy23fs89pryvf5a6ht90"
+vp = "vp_token"
+
+[token.Kartoffel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.XAN]
+address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
+vp = "vp_token"
+
+[token.XAN.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.BTC]
+address = "atest1v4ehgw36xdzryve5gsc52veeg5cnsv2yx5eygvp38qcrvd29xy6rys6p8yc5xvp4xfpy2v694wgwcp"
+vp = "vp_token"
+
+[token.BTC.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Schnitzel]
+address = "atest1v4ehgw36xue5xvf5xvuyzvpjx5un2v3k8qeyvd3cxdqns32p89rrxd6xx9zngvpegccnzs699rdnnt"
+vp = "vp_token"
+
+[token.Schnitzel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.DOT]
+address = "atest1v4ehgw36gg6nvs2zgfpyxsfjgc65yv6pxy6nwwfsxgungdzrggeyzv35gveyxsjyxymyz335hur2jn"
+vp = "vp_token"
+
+[token.DOT.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Apfel]
+address = "atest1v4ehgw36gfryydj9g3p5zv3kg9znyd358ycnzsfcggc5gvecgc6ygs2rxv6ry3zpg4zrwdfeumqcz9"
+vp = "vp_token"
+
+[token.Apfel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.ETH]
+address = "atest1v4ehgw36xqmr2d3nx3ryvd2xxgmrq33j8qcns33sxezrgv6zxdzrydjrxveygd2yxumrsdpsf9jc2p"
+vp = "vp_token"
+
+[token.ETH.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+[established.matchmaker-2]
+address = "atest1v4ehgw36gdpnywpcxyuygv69gg65zve5xdzrsw29g9zrwdjxxaqnj3pkxcmrywfe8q6nwsfsul5hyd"
+vp = "vp_user"
+public_key = "200000005f8cfe395e18038da66e404fa529e43d82d34978b5ac71128e6bbc583f576152"
+
+[established.matchmaker-5]
+address = "atest1v4ehgw36gy6nzvpkxc6yvvfnxazyvwpjgg65zdzygvmrss3exgunz33eg565z3j9xcengv29xhfgqm"
+vp = "vp_user"
+public_key = "200000002a7234f3b5858b5849fb72ade49613cf2f46874d6ff839ebebd1e399094b1162"
+
+[established.matchmaker-3]
+address = "atest1v4ehgw36gezrsd2zg3pnvwp4gseny33cgserjv2pg5mrxwpnx9znzwpsxuunsvzrxs6ngde334txat"
+vp = "vp_user"
+public_key = "20000000a03c93bb3713c2169446db93ec6a4e4d5192f751bde8183d16f51996cf149ab9"
+
+[established.matchmaker-4]
+address = "atest1v4ehgw36gvcrys2xgyurqv33gcmnwwzzxdzrxvpkxq6ngs6xx9qnswpcx5urjde3xdrrgwfnk3ju58"
+vp = "vp_user"
+public_key = "20000000ca10f1b3ebdd8246d3a855e882374635e9421e551477e015dd07bdcaa51e3357"
+
+[established.matchmaker-7]
+address = "atest1v4ehgw368y65vv3nxsurwdenxverxvz9xcm5zs3sxdp5zvj9gerrzdjyxdzy2sehx5mnwvz9gex037"
+vp = "vp_user"
+public_key = "200000002930f88ca0067e27127844943a015dfa2d9007c893bb8e7678ea8c318596c369"
+
+[established.matchmaker-9]
+address = "atest1v4ehgw36xvm52sf4gcuyzs3ngfpyv3zrxumnjs2px5cnsde38yenxs34gven2see8ycnyvjxskgjcm"
+vp = "vp_user"
+public_key = "20000000aad141ce351022fdeb849f5b14417b805d879038f92528d64d7198473659ff9b"
+
+[established.matchmaker-10]
+address = "atest1v4ehgw36x3qnwwfsg4qnyse5x9prqvp3xfprjwf4g5mnjdenxyerg3j9gvcnjdjpxcenvse4an6c78"
+vp = "vp_user"
+public_key = "2000000040ee25e93ffc95a100e41b53d37da66b38af96234c5e84343973ad120638b67c"
+
+[established.matchmaker-8]
+address = "atest1v4ehgw368qerwdfjxg65zv34gcm5gsecxdq5zd2pgsuyxdfeg4pr2desg3z5xv3sxgcngdej4an2z7"
+vp = "vp_user"
+public_key = "20000000d45365c119424606fe4b5922b3e6996ff14870ae56eade2ed490efe5d48b32e4"
+
+[established.faucet]
+address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
+vp = "vp_testnet_faucet"
+public_key = "200000000c59ae37b39d8838a5c2acc83fb3bcd4d8698611292623b7154263889ec1fc2c"
+
+[established.matchmaker-1]
+address = "atest1v4ehgw36xsu5y3p3xcunssjxxazyywzzg3zrv3jpgsmnyd29xyu5xwf389p5gd29gdry2vpnu2svmw"
+vp = "vp_user"
+public_key = "200000008211f2485840cce3d4b519d976f9f3de845c08fefd9d6a566ce9519b5637b478"
+
+[established.matchmaker-6]
+address = "atest1v4ehgw36x9prswfkxep5xwfcgsmrw3pcxpznvw29xscrsdjyxgmygv34ggmygs33gdpnvse4dday8t"
+vp = "vp_user"
+public_key = "200000008d577edc0ff5bbaae024a8277824f4fc32d06034af138b70100c5bcf3a2a5ab1"
+
+[parameters]
+min_num_of_blocks = 10
+min_duration = 60
+
+[pos_params]
+max_validator_slots = 128
+pipeline_len = 2
+unbonding_len = 4
+votes_per_token = 10
+block_proposer_reward = 100
+block_vote_reward = 1
+duplicate_vote_slash_rate = 500
+light_client_attack_slash_rate = 500
+[wasm.vp_testnet_faucet]
+filename = "vp_testnet_faucet.wasm"
+sha256 = "45ce427809e4020dd443fb512604b607b88f482b4c3e53f0ffb8a566308531fc"
+
+[wasm.vp_user]
+filename = "vp_user.wasm"
+sha256 = "f7497aa710eff89cd38f4c99e03aaec1a412634718ddbaac8300bde144cddd33"
+
+[wasm.vp_token]
+filename = "vp_token.wasm"
+sha256 = "c37e15342e9f549759f2260d3aac986c19a51ae7e4122277bf93732c0f25b08b"
