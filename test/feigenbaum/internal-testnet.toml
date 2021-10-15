@@ -116,17 +116,17 @@ vp = "vp_testnet_faucet"
 # filename (relative to wasm path used by the node)
 filename = "vp_user.wasm"
 # SHA-256 hash of the wasm file
-sha256 = "e80bb0203a2a37d10d541f94b9d91cc4a47fe782cda94ddf669691196aa120c9"
+sha256 = "4e827c838036e12b52d6608575fe533b87385add8bab15c4afb3f4f2aea52526"
 
 # Token VP
 [wasm.vp_token]
 filename = "vp_token.wasm"
-sha256 = "530f56e8f481eca3d4dcf8f52a3bf9934fbb0723468ade53d1cd400d0e7601ab"
+sha256 = "8d918e645e4bd82983521514b2b94814bc2bb12059a71ecd9329fc87ea5aff19"
 
 # Faucet VP
 [wasm.vp_testnet_faucet]
 filename = "vp_testnet_faucet.wasm"
-sha256 = "a8f2e2cbe62cc504e03bb3e5a4eaf151272d2bbd6fb02849613c529fe3cdb790"
+sha256 = "13fbd07c7e5156e5ce9d70c12455e04daff4c1712edd9e3e94e4d47d94ed19dc"
 
 # General protocol parameters.
 [parameters]
