@@ -1,0 +1,33 @@
+wasm_dir = "wasm"
+
+[ledger]
+genesis_time = "2021-10-08T16:00:00+00:00"
+chain_id = "internal-1.ff8b9615b6ada02a7eb"
+
+[ledger.shell]
+base_dir = ".anoma"
+ledger_address = "127.0.0.1:26658"
+db_dir = "db"
+tendermint_dir = "tendermint"
+
+[ledger.tendermint]
+rpc_address = "127.0.0.1:26657"
+p2p_address = "127.0.0.1:26656"
+p2p_persistent_peers = ["tcp://7dd3e4bee8683bd8f310f478adf5f5b919bbc814@79.125.112.218:26656", "tcp://992f1b5a76d288a02e5eb3c662c8c82d16b959c5@52.210.23.30:26656", "tcp://766d4354689cb54c9a8e6a8e87521c5d6c5dc561@54.195.72.213:26656", "tcp://e8ff374796b888054df75255307672183da61f9f@63.34.55.152:26656"]
+p2p_pex = true
+consensus_timeout_commit = "10000ms"
+
+[intent_gossiper]
+address = "/ip4/0.0.0.0/tcp/26659"
+topics = ["asset_v0"]
+subscription_filter = "asset_v\\d{1,2}"
+
+[intent_gossiper.gossiper]
+address = "C32B4626F6444ACEA2180AE3ACBFC5FE3E9569D0"
+key = [104, 119, 108, 108, 81, 147, 221, 144, 20, 97, 199, 153, 192, 232, 4, 34, 118, 125, 200, 108, 251, 3, 247, 221, 201, 113, 65, 84, 129, 68, 184, 197, 38, 15, 59, 238, 165, 216, 47, 203, 105, 166, 8, 97, 51, 70, 54, 34, 218, 232, 157, 18, 214, 184, 39, 148, 114, 235, 205, 193, 218, 57, 171, 38]
+
+[intent_gossiper.discover_peer]
+max_discovery_peers = 16
+kademlia = true
+mdns = true
+bootstrap_peers = ["/ip4/54.195.72.213/tcp/26659/p2p/12D3KooWK5KpJxpRSrV3ytgEi3GSpVBc4hyoMyg1QuuuKnP76SMT", "/ip4/63.34.55.152/tcp/26659/p2p/12D3KooWHgn2z3vG22Fpxvqfr328jFsqcEKVxsGgUbzDcb98SkB9", "/ip4/79.125.112.218/tcp/26659/p2p/12D3KooWH2PKt6nfxE4KWJMeK3YLpeMJXUTFdSRSnZQrimkBDEE7", "/ip4/52.210.23.30/tcp/26659/p2p/12D3KooWGf5sXxPrEQKNN4apT8qVPkVQRytK7RcVXEQz8NkkhpPo"]
