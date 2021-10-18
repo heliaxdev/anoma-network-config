@@ -1,4 +1,4 @@
-genesis_time = "2021-10-18T08:00:00.00Z"
+genesis_time = "2021-10-18T08:30:00.00Z"
 
 # 10 genesis validators.
 [validator.validator-1]
