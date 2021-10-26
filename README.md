@@ -1,14 +1,13 @@
-# anoma-network-config
-anoma network configuration
+# Anoma networks configuration
 
-The directory `test/feigenbaum` contains the source genesis files:
+The directory `src` contains the source genesis files:
 
-- `internal-testnet.toml`
-- `public-testnet.toml`
+- `anoma-public.toml` - public testnet
+- `anoma-internal.toml` - internal testnet
 
-From the source genesis files, we generate the final genesis file, chain ID and configurations for validators. This also generates all the keys and addresses that haven't been pre-filled in the source.
+From the source genesis files, we generate the final genesis files, chain ID and configurations for validators. This also generates all the keys and addresses that haven't been pre-filled in the source.
 
-The sub-directories with the same name as the source TOML files in `test/feigenbaum` then contain the public part of the configuration:
+The `final` directory contains sub-directories whose names are their chain IDs (e.g. `anoma-feigenbaum-0.9aad723f605`). Each of these directories contain the public part of the configuration:
 
 - `.anoma/global-config/toml` - sets the default chain ID for Anoma
 - `.anoma/{chain_id}.toml` - the final genesis file
@@ -20,9 +19,8 @@ To generate a network config from a source genesis file using anomac (this shoul
 
 ```shell
 anomac utils init-network \
-    --genesis-path ~/dev/anoma-network-config/test/feigenbaum/public-testnet.toml \
-    --chain-prefix anoma-feigenbaum-0 \
-    --unsafe-dont-encrypt
+    --genesis-path src/anoma-public.toml \
+    --chain-prefix anoma-feigenbaum-0
 ```
 
-Increment the version in the last char of `--chain-prefix` for each new testnet chain.
+Increment the version in the last char of `--chain-prefix` for each new testnet version.
