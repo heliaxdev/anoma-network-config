@@ -1,0 +1,34 @@
+wasm_dir = "wasm"
+
+[ledger]
+genesis_time = "2021-10-18T08:30:00+00:00"
+chain_id = "anoma-feigenbaum-0.ebb9e9f9013"
+
+[ledger.shell]
+base_dir = ".anoma"
+ledger_address = "127.0.0.1:26658"
+db_dir = "db"
+tendermint_dir = "tendermint"
+
+[ledger.tendermint]
+rpc_address = "127.0.0.1:26657"
+p2p_address = "127.0.0.1:26656"
+p2p_persistent_peers = ["tcp://6b6465674f6d90b046fd1d788f608f01afe3fea9@54.77.54.205:26656", "tcp://2220d72fa9a7f436b400104a4f3e0f6fc95a3aa3@34.241.207.169:26656", "tcp://229edd5993c490073846ea32ee9bb043837f892b@34.246.247.108:26656", "tcp://f3672ad8fe1db3837ac61d196858980515ec6b34@34.248.153.73:26656", "tcp://4e2dd2d9844085b8378ee844b22d4cf17189979f@52.30.6.192:26656", "tcp://af5f0a14db976d043e85f483de108404759dde3f@99.81.101.134:26656", "tcp://e611f638a8d56e41ef7e2fa101384aea16112d0f@54.220.207.161:26656", "tcp://2ab6dc167ad131bce2ab76ce9434b10a9697d14d@54.194.76.54:26656", "tcp://d7477d5c8de1a9d7b68e944e73c99b2eee35d102@54.216.42.24:26656", "tcp://4d9c05d80e09c7ea55c8f4c423371fa5aa204bb6@52.19.33.147:26656"]
+p2p_pex = true
+p2p_allow_duplicate_ip = true
+consensus_timeout_commit = "10000ms"
+
+[intent_gossiper]
+address = "/ip4/0.0.0.0/tcp/26659"
+topics = ["asset_v0"]
+subscription_filter = "asset_v\\d{1,2}"
+
+[intent_gossiper.gossiper]
+address = "B52113CE63FF962CF1158790D8E9ABEE6EDC3970"
+key = [47, 132, 23, 138, 34, 163, 112, 241, 151, 98, 113, 169, 46, 158, 217, 103, 202, 164, 28, 202, 65, 218, 253, 4, 168, 158, 177, 219, 7, 94, 38, 181, 26, 246, 115, 219, 209, 25, 60, 249, 16, 60, 206, 29, 26, 150, 229, 205, 192, 154, 99, 46, 77, 208, 44, 92, 91, 0, 90, 242, 137, 36, 70, 191]
+
+[intent_gossiper.discover_peer]
+max_discovery_peers = 16
+kademlia = true
+mdns = true
+bootstrap_peers = ["/ip4/34.241.207.169/tcp/26659/p2p/12D3KooWBdPk2Uu2PWAYGVRNcukH1UdpqB9TMkBryqLuPsoNocdN", "/ip4/99.81.101.134/tcp/26659/p2p/12D3KooWJqsNCSdhGL3R535xQ9RKqhMPeFdKiViTKfanYQwWFBcn", "/ip4/34.248.153.73/tcp/26659/p2p/12D3KooWNMkobwraHXRPGAgz4ohZPayr1xCjhGF3LVNXsLXaABP4", "/ip4/54.194.76.54/tcp/26659/p2p/12D3KooWERFU2J2bRuThcV3kBAJz5chioZMwHF9XRTSS8qk58GJr", "/ip4/34.246.247.108/tcp/26659/p2p/12D3KooWBBM8TrwoxVGYeL43W3SP6SmvFV6sSiDvzFJwtFrHAWBt", "/ip4/54.220.207.161/tcp/26659/p2p/12D3KooWL3GoUHMGJrFWg9kiNcYRqjkovtwtkrZfFs6PXyjh5aob", "/ip4/52.30.6.192/tcp/26659/p2p/12D3KooWK1WwVpb6ZFAr75AjLnmrosQcbqdr4L5fqsJyYiHHTtRs", "/ip4/52.19.33.147/tcp/26659/p2p/12D3KooWABaxsNWxm3uZTJEWiBm5XQjgKDQhUrLgxGbvTrhPs2XG", "/ip4/54.77.54.205/tcp/26659/p2p/12D3KooWL2hHGTK7LjJi2Ys8b9kDzi5MBRBMKNFkrLsG4DC3JyXM", "/ip4/54.216.42.24/tcp/26659/p2p/12D3KooWFX7BBouG6mgoBQMnJR3NuaPXmvMDL3EC2o4nnqcdK5ZQ"]
