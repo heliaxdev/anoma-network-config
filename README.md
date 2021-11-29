@@ -24,3 +24,17 @@ anomac utils init-network \
 ```
 
 Increment the version in the last char of `--chain-prefix` for each new testnet version.
+
+The command will print the chain ID of the generated network. Use it in the following commands.
+
+To test run release:
+
+```shell
+./release.sh {chain_id} --draft
+```
+
+To tag the master branch and upload the release archive created by `init-network` command, run:
+
+```shell
+./release.sh {chain_id}
+```
