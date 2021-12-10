@@ -5,6 +5,8 @@
 # write access to https://github.com/heliaxdev/anoma-network-config.
 #
 # The first argument is the chain ID.
+# Important: Use pre-release for the devnet, add `--prerelease` flag at the end 
+# when calling this script.
 # To test run, add `--draft` flag at the end when calling this script.
 #
 # Tags the master branch with the chain ID and creates a GitHub release with
