@@ -4,7 +4,7 @@ genesis_time = "2021-12-20T15:00:00.00Z"
 # 4 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000 # corresponds to 2 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -22,7 +22,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 20000000
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -40,7 +40,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 20000000
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -58,7 +58,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 20000000
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
