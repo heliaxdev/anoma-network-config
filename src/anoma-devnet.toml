@@ -30,7 +30,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "63.34.55.152:26656"
+net_address = "63.32.203.239:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-2"
 # A matchmaker WASM program
