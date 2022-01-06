@@ -13,12 +13,8 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "52.210.23.30:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-1"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
+# A bootstrap node is not part of the gossipsub and hence cannot run matchmakers
+intent_gossip_bootstrap = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
@@ -120,9 +116,6 @@ vp = "vp_token"
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
 # Some established accounts present at genesis.
-[established.matchmaker-1]
-vp = "vp_user"
-
 [established.matchmaker-2]
 vp = "vp_user"
 
