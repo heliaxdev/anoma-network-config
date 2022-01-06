@@ -29,22 +29,28 @@ Increment the version in the last char of `--chain-prefix` for each new testnet 
 
 The WASM checksums should point to the Anoma repository directory with the same branch as what's used for the release.
 
-The command will print the chain ID of the generated network. Use it in the following commands.
+The command will create an archive of the public configuration for the generated network, e.g.:
+
+```shell
+Release archive created at {archive_file_path}
+```
+
+Use it in the following commands.
 
 To test run release:
 
 ```shell
-./release.sh {chain_id} --draft
+./release.sh {archive_file_path} --draft
 ```
 
 To tag the master branch and upload the release archive created by `init-network` command, run:
 
 ```shell
-./release.sh {chain_id}
+./release.sh {archive_file_path}
 ```
 
 For devnet use pre-release:
 
 ```shell
-./release.sh {chain_id} --prerelease
+./release.sh {archive_file_path} --prerelease
 ```

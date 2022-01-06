@@ -4,8 +4,11 @@
 # Must have authenticated `gh` available (see https://github.com/cli/cli) with
 # write access to https://github.com/heliaxdev/anoma-network-config.
 #
-# The first argument is the chain ID.
-# Important: Use pre-release for the devnet, add `--prerelease` flag at the end 
+# The first argument is the name of the archive file which must be present in 
+# the current working directory. The archive's name is expected to be equal to
+# the chain ID with a "tar.gz" suffix.
+#
+# IMPORTANT: Use pre-release for the devnet, add `--prerelease` flag at the end 
 # when calling this script.
 # To test run, add `--draft` flag at the end when calling this script.
 #
@@ -15,11 +18,12 @@
 
 set -e
 
-CHAIN_ID=$1
+ARCHIVE_FILE_PATH=$1
+CHAIN_ID=${ARCHIVE_FILE_PATH%".tar.gz"}
 EXTRA_ARG=$2
 echo "Chain ID: $CHAIN_ID"
 CWD=$(pwd)
-ARCHIVE="$CWD/$CHAIN_ID.tar.gz"
+ARCHIVE="$CWD/$ARCHIVE_FILE_PATH"
 
 echo "Releasing from $ARCHIVE..."
 
