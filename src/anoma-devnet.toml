@@ -13,8 +13,8 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "52.210.23.30:26656"
-# A bootstrap node is not part of the gossipsub and hence cannot run matchmakers
-intent_gossip_bootstrap = true
+# A seed node is not part of the gossipsub and hence cannot run matchmakers
+intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
