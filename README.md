@@ -40,17 +40,17 @@ Use it in the following commands.
 To test run release:
 
 ```shell
-./release.sh {archive_file_path} --draft
+./release.sh {archive_file_path} {archive_file_name} --draft
 ```
 
 To tag the master branch and upload the release archive created by `init-network` command, run:
 
 ```shell
-./release.sh {archive_file_path}
+./release.sh {archive_file_path} {archive_file_name}
 ```
 
 For devnet use pre-release:
 
 ```shell
-./release.sh {archive_file_path} --prerelease
+./release.sh {archive_file_path} {archive_file_name} --prerelease
 ```
