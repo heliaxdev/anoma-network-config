@@ -197,6 +197,8 @@ sha256 = "24de64f129166b2205758aad59f513682bb5278389596ebcc4c3f27315c396d6"
 min_num_of_blocks = 10
 # Minimum duration of an epoch (in seconds).
 min_duration = 60
+# Maximum expected time per block (in seconds).
+max_expected_time_per_block = 30
 
 # Proof of stake parameters.
 [pos_params]
