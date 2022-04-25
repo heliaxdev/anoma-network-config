@@ -1,0 +1,212 @@
+# Developer network to test <https://github.com/anoma/anoma/pull/1053>
+genesis_time = "2021-12-20T15:00:00.00Z"
+
+[validator.tomas]
+consensus_public_key = "00ab4bc832ed1f0c6232083217ed3a4e577f4f03161646671c1b55e0123d1d6e13"
+account_public_key = "003ddf482b0359a6a994e9ead46ec52521d93aad60c696de56ca33b00968fc1de2"
+staking_reward_public_key = "006067729edfbcbd5e08642681edf774b7bf63d738fc3d42c22e6cb08eea45554c"
+protocol_public_key = "00f56479cb4af97cef95974b6eb416059213e78354cafb1171630a2cabff0eea60"
+dkg_public_key = "6000000012c2e1288e0ea4314fdec1ae71311297432cf506c404fe0f713fa12acd3df69fa5948cb7ffa1d4bccb498f003d318b01239e8a49e3da43f7660ad45a94d09762ee2e5d9e689fe5d4635624ea8699897c1b5dca01fea3d0f713a0708762529a01"
+net_address = "54.78.173.66:26656"
+tendermint_node_key = "00eb6c53e39ee76d04323bed77987c03b454e79a9b115bdbe1183ee5350a9076ef"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+[validator.validator-ethbridge]
+consensus_public_key = "00d25d56202707a664d982917ed9384bb167d0aa1bfd68b70c8ce64606a3ac2c7b"
+account_public_key = "00bdea4b4de6807c6a6531e26709b3160b255d3cb7b94d52572729185cf825fa56"
+staking_reward_public_key = "00c9707f51df3d26772249809e5522b647a8dd111d133869825d561597cddc992d"
+protocol_public_key = "009afc5c66e953fbaeacc3bfbeff0b18b47daa1eefc796336cccdd924578279141"
+dkg_public_key = "60000000ae9216eec9819c479325c58192122d942ba11fac0631b142fc80d64ff714b7dff5c68e4290df3e9be9be4796ac9c02144855bbfc4758aebdecd6e4884cbfa1631f2317161e476e0a2761db0299ba26c0b989884881bc874f7fb441060820cb81"
+net_address = "52.212.86.91:26656"
+tendermint_node_key = "0062aab3d72451dc40f2e9d42bbaef1e05bd8ddcc4546e495dd968c8b9caee4e4d"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+# 4 genesis auto-deployed AWS validators.
+[validator.validator-1]
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+# Public IP:port address
+net_address = "52.210.23.30:26656"
+# A seed node is not part of the gossipsub and hence cannot run matchmakers
+intent_gossip_seed = true
+
+
+[validator.validator-2]
+# Validator's token balance at genesis.
+tokens = 6714000000
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+# Public IP:port address
+net_address = "63.32.203.239:26656"
+# This has to be an alias of one of the established accounts
+matchmaker_account = "matchmaker-2"
+# A matchmaker WASM program
+matchmaker_code = "wasm/mm_token_exch.wasm"
+# A transaction WASM code used by the matchmaker
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-3]
+# Validator's token balance at genesis.
+tokens = 6714000000
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+# Public IP:port address
+net_address = "54.195.72.213:26656"
+# This has to be an alias of one of the established accounts
+matchmaker_account = "matchmaker-3"
+# A matchmaker WASM program
+matchmaker_code = "wasm/mm_token_exch.wasm"
+# A transaction WASM code used by the matchmaker
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+[validator.validator-4]
+# Validator's token balance at genesis.
+tokens = 6714000000
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+# Public IP:port address
+net_address = "79.125.112.218:26656"
+# This has to be an alias of one of the established accounts
+matchmaker_account = "matchmaker-4"
+# A matchmaker WASM program
+matchmaker_code = "wasm/mm_token_exch.wasm"
+# A transaction WASM code used by the matchmaker
+matchmaker_tx = "wasm/tx_from_intent.wasm"
+
+# Some tokens present at genesis.
+
+[token.XAN]
+address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
+vp = "vp_token"
+[token.XAN.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.BTC]
+address = "atest1v4ehgw36xdzryve5gsc52veeg5cnsv2yx5eygvp38qcrvd29xy6rys6p8yc5xvp4xfpy2v694wgwcp"
+vp = "vp_token"
+[token.BTC.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.ETH]
+address = "atest1v4ehgw36xqmr2d3nx3ryvd2xxgmrq33j8qcns33sxezrgv6zxdzrydjrxveygd2yxumrsdpsf9jc2p"
+vp = "vp_token"
+[token.ETH.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.DOT]
+address = "atest1v4ehgw36gg6nvs2zgfpyxsfjgc65yv6pxy6nwwfsxgungdzrggeyzv35gveyxsjyxymyz335hur2jn"
+vp = "vp_token"
+[token.DOT.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Schnitzel]
+address = "atest1v4ehgw36xue5xvf5xvuyzvpjx5un2v3k8qeyvd3cxdqns32p89rrxd6xx9zngvpegccnzs699rdnnt"
+vp = "vp_token"
+[token.Schnitzel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Apfel]
+address = "atest1v4ehgw36gfryydj9g3p5zv3kg9znyd358ycnzsfcggc5gvecgc6ygs2rxv6ry3zpg4zrwdfeumqcz9"
+vp = "vp_token"
+[token.Apfel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Kartoffel]
+address = "atest1v4ehgw36gep5ysecxq6nyv3jg3zygv3e89qn2vp48pryxsf4xpznvve5gvmy23fs89pryvf5a6ht90"
+public_key = ""
+vp = "vp_token"
+[token.Kartoffel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+# Some established accounts present at genesis.
+[established.matchmaker-2]
+vp = "vp_user"
+
+[established.matchmaker-3]
+vp = "vp_user"
+
+[established.matchmaker-4]
+vp = "vp_user"
+
+[established.faucet]
+address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
+vp = "vp_testnet_faucet"
+
+# Wasm VP definitions
+
+# Default user VP
+[wasm.vp_user]
+# filename (relative to wasm path used by the node)
+filename = "vp_user.wasm"
+
+# Token VP
+[wasm.vp_token]
+filename = "vp_token.wasm"
+
+# Faucet VP
+[wasm.vp_testnet_faucet]
+filename = "vp_testnet_faucet.wasm"
+
+# General protocol parameters.
+[parameters]
+# Minimum number of blocks in an epoch.
+min_num_of_blocks = 10
+# Minimum duration of an epoch (in seconds).
+min_duration = 60
+# Maximum expected time per block (in seconds).
+max_expected_time_per_block = 30
+
+# Proof of stake parameters.
+[pos_params]
+# Maximum number of active validators.
+max_validator_slots = 128
+# Pipeline length (in epochs). Any change in the validator set made in
+# epoch 'n' will become active in epoch 'n + pipeline_len'.
+pipeline_len = 2
+# Unbonding length (in epochs). Validators may have their stake slashed
+# for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
+unbonding_len = 4
+# Votes per token (in basis points, i.e., per 10,000 tokens)
+votes_per_token = 10
+# Reward for proposing a block.
+block_proposer_reward = 100
+# Reward for voting on a block.
+block_vote_reward = 1
+# Portion of a validator's stake that should be slashed on a duplicate
+# vote (in basis points, i.e., 500 = 5%).
+duplicate_vote_slash_rate = 500
+# Portion of a validator's stake that should be slashed on a light
+# client attack (in basis points, i.e., 500 = 5%).
+light_client_attack_slash_rate = 500
