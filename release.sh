@@ -21,9 +21,12 @@ set -e
 ARCHIVE_FILE_PATH=$1
 CHAIN_ID=$2
 EXTRA_ARG="${@:3}"
+echo "Archive file: $ARCHIVE_FILE_PATH"
 echo "Chain ID: $CHAIN_ID"
+echo "Extra: $EXTRA_ARG"
 CWD=$(pwd)
-ARCHIVE="$CWD/$ARCHIVE_FILE_PATH"
+echo "CWD: $CWD"
+ARCHIVE="$ARCHIVE_FILE_PATH"
 
 echo "Releasing from $ARCHIVE..."
 
