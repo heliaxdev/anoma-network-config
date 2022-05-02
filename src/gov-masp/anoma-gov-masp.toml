@@ -1,0 +1,213 @@
+# Developer network
+genesis_time = "2022-05-02:00:00.00Z"
+
+# private genesis validators
+[validator.doge-validator]
+consensus_public_key = "00022088fcf362a3d65e4ce53dc96d634a801bc0ef27ea6d1c3cccd1c675012488"
+account_public_key = "00bb0efd3440cc23a37543d7ad8e91790f6d18e37551e0a141881d91aa9af8a428"
+staking_reward_public_key = "00fa02fa53c2092bc49b6c7bed472692a6b90bb543449dd84c8f381e84c4eecb75"
+protocol_public_key = "007c39d07134c75819a77ace0de022fa5a3b611168fb3a58c5264c5799e8335436"
+dkg_public_key = "60000000a8eec621108000631e880e11e46ffa06e677c61426db11b3ad3f18fd5bae612197fa1ad4dcce0a23c0816a06ea80f8119f6e034b284c866fa1097a4e8e4126507cbd2f2127c4cbf0d975a4871eaadabb38edb64a23189475f1c4cd53395e5606"
+net_address = "10.1.23.205:26656"
+tendermint_node_key = "00652b838f5ed860ae6e9efd45e11296ff079c34aee83c0fdb4e55c54f298fd62d"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+[validator.cwgoes]
+consensus_public_key = "00481314e68fbf4b9e765d46ff7228a93a69090e6563649b0812e30ee0e3995ca9"
+account_public_key = "005167408c6cfff0704aeec16d47788d90cec792754461502a7c6f4a11b88e1318"
+staking_reward_public_key = "000cf8ef795c47fb66d9373c9fd6355c46c6e4219caddb60d739d6c6e4f5361f00"
+protocol_public_key = "0099c7f5883c717b6e81e6849ff2841ba3d74543e1f57d7680af23d4ade64bb2d2"
+dkg_public_key = "6000000098a5b2a5d572b97b85c732bc6ad4d659bc4574d0047aa40438ada8b7164b977d993936871e03499ee0df9845db52ae0312d2482333ff590044c5136302dca97541a370bba0b902e3d12402574164a01aca9cd670fa6a36b99961a7ac1cf20517"
+net_address = "149.202.88.174:26656"
+tendermint_node_key = "001482b866f87437095adbeeeaf2438ce331e4b1a66bd0e791fa1b6f4937fce996"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+
+[validator.gian]
+consensus_public_key = "0075ab5d18b6e1a3afd88379e88adfd180b84e8aa9af6d7d916a77c12a655bcbae"
+account_public_key = "000adb302f3005df5aff6a6e7c4f6f55d5a4d80f09f5e01a75a13da993a9fb6314"
+staking_reward_public_key = "0048e362bf12120268fc071c3e91892f66850db4480a8a4998cb648abb3cf194c7"
+protocol_public_key = "00a42846aa7ad2c91a8d79d923a1efab02d994fb1baec31d1f651dcebe759a2a11"
+dkg_public_key = "60000000aeecb5a69db69b2cb8d81e54e1387558ad888dcb680ad890f3216471f317a015ce70c29895e58fa8f16e08bc4dbb1515d644bac4fc6f9985ae3cd0a09018b445b5b4119ea224f13343c94b1e5782742f87bbc58d4bdc29a6e60c40ec2b061d07"
+net_address = "54.76.21.80:26656"
+tendermint_node_key = "00863f94606e851e3ce405eda392c4ef4058ee4dd5dbfee940610594ebfc823911"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+
+[validator.james-chf]
+consensus_public_key = "0011ce3a9e9d585c9a922daea15795edabdf682844eaf3d88ecc856b357d477f71"
+account_public_key = "006731a80aa101670c4199d7244669017aa5ce3df87646ff611949b7621338ebed"
+staking_reward_public_key = "0041be4c87b3c098a0ff8abb3a8a8f6c5f5885a1ddd299d37c4e9310315e81ddd0"
+protocol_public_key = "0087d3913fc068608f6d7f61c13b53b594e194b21e94f0ef85e08bc99e1459142a"
+dkg_public_key = "60000000be46ac75d70bcd8f05073cc9a0d5bf4711070ec78e97a1a8097edcd38de6bb4c4bcbb7a0adedd7dac66f2c6f557ce00dd058dfc52e1a14c1fd84b336e4401a736e5b7b0044e570e280ca99be930e1e83f4960af095ea89cda6dfe3c35ba32092"
+net_address = "63.35.158.19:26656"
+tendermint_node_key = "002d7d2c9302534244ca5b0af7c19c86084a60324ffd668f0792d51dd88c6948b2"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+
+[validator.tomas]
+consensus_public_key = "00b8cf7308c6e60d736ab870acc19fc55a2068ab3f8f3d9a3c9ac076372b34b3d6"
+account_public_key = "0036611bd746d4aa5b675b2b27e4dffcd606a765ce90ff2f26104e79dcc02865bb"
+staking_reward_public_key = "00ad40ace545174677b16b518f4efa42d6e54c0c658fb8213c89dc26076ba2ce38"
+protocol_public_key = "00da65539b363ab0b974e20feaa13e981b333a630c55a9bd54e4bb9f2b251be976"
+dkg_public_key = "60000000026d10744f82baeecf96868db571a2db8cc5e6ff279f4ff464b22e004d8bc2f25641ba8ecee47182142e00cac12a731989672123c067ef24eaff753158b0ea9105f2f24bed2fd9faf2cc64e4328267b8bb90f163cfd9c72759dabef567c6d887"
+net_address = "54.78.173.66:26656"
+tendermint_node_key = "003507d77bf10811a3c260aa3486d29841d27035779ffeecb8bcea30ba40c04902"
+# Validator's token balance at genesis.
+tokens = 6714000000 # corresponds to 6_714_000 voting power
+# Amount of the validator's genesis token balance which is not staked.
+non_staked_balance = 1000000000000
+# VP for the validator account
+validator_vp = "vp_user"
+# VP for the staking reward account
+staking_reward_vp = "vp_user"
+
+# Some tokens present at genesis.
+
+[token.XAN]
+address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
+vp = "vp_token"
+[token.XAN.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.BTC]
+address = "atest1v4ehgw36xdzryve5gsc52veeg5cnsv2yx5eygvp38qcrvd29xy6rys6p8yc5xvp4xfpy2v694wgwcp"
+vp = "vp_token"
+[token.BTC.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.ETH]
+address = "atest1v4ehgw36xqmr2d3nx3ryvd2xxgmrq33j8qcns33sxezrgv6zxdzrydjrxveygd2yxumrsdpsf9jc2p"
+vp = "vp_token"
+[token.ETH.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.DOT]
+address = "atest1v4ehgw36gg6nvs2zgfpyxsfjgc65yv6pxy6nwwfsxgungdzrggeyzv35gveyxsjyxymyz335hur2jn"
+vp = "vp_token"
+[token.DOT.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Schnitzel]
+address = "atest1v4ehgw36xue5xvf5xvuyzvpjx5un2v3k8qeyvd3cxdqns32p89rrxd6xx9zngvpegccnzs699rdnnt"
+vp = "vp_token"
+[token.Schnitzel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Apfel]
+address = "atest1v4ehgw36gfryydj9g3p5zv3kg9znyd358ycnzsfcggc5gvecgc6ygs2rxv6ry3zpg4zrwdfeumqcz9"
+vp = "vp_token"
+[token.Apfel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+[token.Kartoffel]
+address = "atest1v4ehgw36gep5ysecxq6nyv3jg3zygv3e89qn2vp48pryxsf4xpznvve5gvmy23fs89pryvf5a6ht90"
+public_key = ""
+vp = "vp_token"
+[token.Kartoffel.balances]
+atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
+
+# Some established accounts present at genesis.
+[established.faucet]
+address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
+vp = "vp_testnet_faucet"
+
+[established.masp]
+address = "atest1v4ehgw36xaryysfsx5unvve4g5my2vjz89p52sjxxgenzd348yuyyv3hg3pnjs35g5unvde4ca36y5"
+vp = "vp_masp"
+
+# Wasm VP definitions
+
+# Default user VP
+[wasm.vp_user]
+# filename (relative to wasm path used by the node)
+filename = "vp_user.wasm"
+
+# Token VP
+[wasm.vp_token]
+filename = "vp_token.wasm"
+
+# Faucet VP
+[wasm.vp_testnet_faucet]
+filename = "vp_testnet_faucet.wasm"
+
+# MASP VP
+[wasm.vp_masp]
+filename = "vp_masp.wasm"
+
+# General protocol parameters.
+[parameters]
+# Minimum number of blocks in an epoch.
+min_num_of_blocks = 10
+# Minimum duration of an epoch (in seconds).
+min_duration = 60
+# Maximum expected time per block (in seconds).
+max_expected_time_per_block = 30
+
+# Proof of stake parameters.
+[pos_params]
+# Maximum number of active validators.
+max_validator_slots = 128
+# Pipeline length (in epochs). Any change in the validator set made in
+# epoch 'n' will become active in epoch 'n + pipeline_len'.
+pipeline_len = 2
+# Unbonding length (in epochs). Validators may have their stake slashed
+# for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
+unbonding_len = 4
+# Votes per token (in basis points, i.e., per 10,000 tokens)
+votes_per_token = 10
+# Reward for proposing a block.
+block_proposer_reward = 100
+# Reward for voting on a block.
+block_vote_reward = 1
+# Portion of a validator's stake that should be slashed on a duplicate
+# vote (in basis points, i.e., 500 = 5%).
+duplicate_vote_slash_rate = 500
+# Portion of a validator's stake that should be slashed on a light
+# client attack (in basis points, i.e., 500 = 5%).
+light_client_attack_slash_rate = 500
+
+# Governance parameters.
+[gov_params]
+# minimum amount of xan token to lock
+min_proposal_fund = 500
+# proposal code size in kibibytes (KiB)
+max_proposal_code_size = 300000 
+# proposal period length in epoch
+min_proposal_period = 3
+# maximum number of characters in the proposal content
+max_proposal_content_size = 10000
+# minimum epochs between end and grace epoch
+min_proposal_grace_epochs = 6 
+
+# Treasury parameters
+[treasury_params]
+max_proposal_fund_transfer = 5000
