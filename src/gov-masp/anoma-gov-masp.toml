@@ -2,23 +2,6 @@
 genesis_time = "2021-12-20T15:00:00.00Z"
 
 # private genesis validators
-[validator.doge-validator]
-consensus_public_key = "00022088fcf362a3d65e4ce53dc96d634a801bc0ef27ea6d1c3cccd1c675012488"
-account_public_key = "00bb0efd3440cc23a37543d7ad8e91790f6d18e37551e0a141881d91aa9af8a428"
-staking_reward_public_key = "00fa02fa53c2092bc49b6c7bed472692a6b90bb543449dd84c8f381e84c4eecb75"
-protocol_public_key = "007c39d07134c75819a77ace0de022fa5a3b611168fb3a58c5264c5799e8335436"
-dkg_public_key = "60000000a8eec621108000631e880e11e46ffa06e677c61426db11b3ad3f18fd5bae612197fa1ad4dcce0a23c0816a06ea80f8119f6e034b284c866fa1097a4e8e4126507cbd2f2127c4cbf0d975a4871eaadabb38edb64a23189475f1c4cd53395e5606"
-net_address = "10.1.23.205:26656"
-tendermint_node_key = "00652b838f5ed860ae6e9efd45e11296ff079c34aee83c0fdb4e55c54f298fd62d"
-# Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-
 [validator.cwgoes]
 consensus_public_key = "00481314e68fbf4b9e765d46ff7228a93a69090e6563649b0812e30ee0e3995ca9"
 account_public_key = "005167408c6cfff0704aeec16d47788d90cec792754461502a7c6f4a11b88e1318"
