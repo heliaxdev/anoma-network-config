@@ -11,7 +11,7 @@ dkg_public_key = "60000000e8845aba7df9e7be7cc4f9178e858739c3a5abbd45673fb65d8ee6
 net_address = "143.244.196.53:26656"
 tendermint_node_key = "00fd3b8437177bb7d2db4e6698e5fb8955af44ba2cc85b2714230b038d450d8f79"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -28,7 +28,7 @@ dkg_public_key = "60000000686bdfc466daed4d12e8cddde690227ec656d4c26a50c531e69e68
 net_address = "149.202.88.174:26656"
 tendermint_node_key = "0035b2a2871d42bf41526f07c8f672a29a270b77116719788700b8a58eea1f8175"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -45,7 +45,7 @@ dkg_public_key = "6000000071f4638d3ff7e69f21f69828ce6735ae2a4c21e90533b085a37227
 net_address = "37.120.245.31:26656"
 tendermint_node_key = "007a37428b70d959dd7a32abb92fea90dd54d6ce02a232149f8ab658336495aa48"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -62,7 +62,7 @@ dkg_public_key = "60000000a48ad5916cec45bbc5cabe016a3a1075553e7bb9caaafe6bfc8f89
 net_address = "54.76.21.80:26656"
 tendermint_node_key = "00f289f1371604f416a6cb505f656a280355f87ab462eba4fe3c5cce8c1ba7d1b3"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -79,7 +79,7 @@ dkg_public_key = "60000000e0985a103fb386e54c8e894a4f26720602937f1ff088b590b4f4b5
 net_address = "162.55.0.160:26656"
 tendermint_node_key = "0036e7a66205a2b716731de08d6923f1f37beeadd1d4326f338651c613f943219f"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -96,7 +96,7 @@ protocol_public_key = "0085a2ea0d9e8f4e317f0fc1766f3933522cb08bf2df8fbab5366bfcd
 staking_reward_public_key = "00ed808240f1a3a4402670adde8f1494f798d8519cd38c05996dfd268dd80b09f7"
 tendermint_node_key = "008493bb0fad6b37354dbc206988d52c2f21d65d4fdf638a3a09518712afbad120"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -113,7 +113,7 @@ dkg_public_key = "600000000bcfc8904d0221aa4412fd247f4fa24b1cd19dab42d566dad8b2fb
 net_address = "65.108.44.178:26656"
 tendermint_node_key = "00ef4fbb97f30c11d48a8ba68118e9c6e211db283ea9f55aefa629c6c8d89551fc"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -130,7 +130,7 @@ dkg_public_key = "600000002975e9c503256510b24ff40772e9f1b8d1fbe5b39fdf5208108645
 net_address = "51.77.245.73:26656"
 tendermint_node_key = "004b47b5afbe97a66e3a531586f2c175c0ae36668ae39f1e7b826b2a54f66fa82e"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -147,7 +147,7 @@ dkg_public_key = "60000000026d10744f82baeecf96868db571a2db8cc5e6ff279f4ff464b22e
 net_address = "54.78.173.66:26656"
 tendermint_node_key = "003507d77bf10811a3c260aa3486d29841d27035779ffeecb8bcea30ba40c04902"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -164,7 +164,7 @@ dkg_public_key = "60000000979e7d9a60fd20e0fdc3cde9824926856711236d833d38fda3e6e1
 net_address = "65.108.207.160:26656"
 tendermint_node_key = "00b2f801e0b4a87dfabc4277b417c09cdf7116b2a9f18452a8e1cac9c4ad8c008c"
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
