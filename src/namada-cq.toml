@@ -1,5 +1,5 @@
 # Developer network
-genesis_time = "2021-05-05T10:00:00.00Z"
+genesis_time = "2022-05-05T10:00:00.00Z"
 
 # private genesis validators
 [validator.awa-validator]
