@@ -1,10 +1,10 @@
-# Test network
+# Developer network
 genesis_time = "2021-12-20T15:00:00.00Z"
 
-# 6 genesis validators.
+# 4 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 2000 # corresponds to 2 voting power
+tokens = 6714000000 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -12,13 +12,13 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "54.75.164.59:26656"
+net_address = "52.210.23.30:26656"
 # A seed node is not part of the gossipsub and hence cannot run matchmakers
 intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 2000
+tokens = 6714000000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -26,7 +26,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "34.245.246.139:26656"
+net_address = "63.32.203.239:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-2"
 # A matchmaker WASM program
@@ -36,7 +36,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 2000
+tokens = 6714000000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -44,7 +44,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "54.78.40.25:26656"
+net_address = "54.195.72.213:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-3"
 # A matchmaker WASM program
@@ -54,7 +54,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 2000
+tokens = 6714000000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -62,45 +62,9 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "3.248.99.184:26656"
+net_address = "79.125.112.218:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-4"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-5]
-# Validator's token balance at genesis.
-tokens = 2000
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "34.246.22.83:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-5"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-6]
-# Validator's token balance at genesis.
-tokens = 2000
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "79.125.69.216:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-6"
 # A matchmaker WASM program
 matchmaker_code = "wasm/mm_token_exch.wasm"
 # A transaction WASM code used by the matchmaker
@@ -161,15 +125,13 @@ vp = "vp_user"
 [established.matchmaker-4]
 vp = "vp_user"
 
-[established.matchmaker-5]
-vp = "vp_user"
-
-[established.matchmaker-6]
-vp = "vp_user"
-
 [established.faucet]
 address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
 vp = "vp_testnet_faucet"
+
+[established.masp]
+address = "atest1v4ehgw36xaryysfsx5unvve4g5my2vjz89p52sjxxgenzd348yuyyv3hg3pnjs35g5unvde4ca36y5"
+vp = "vp_masp"
 
 # Wasm VP definitions
 
@@ -185,6 +147,10 @@ filename = "vp_token.wasm"
 # Faucet VP
 [wasm.vp_testnet_faucet]
 filename = "vp_testnet_faucet.wasm"
+
+# MASP VP
+[wasm.vp_masp]
+filename = "vp_masp.wasm"
 
 # General protocol parameters.
 [parameters]
@@ -217,20 +183,3 @@ duplicate_vote_slash_rate = 500
 # Portion of a validator's stake that should be slashed on a light
 # client attack (in basis points, i.e., 500 = 5%).
 light_client_attack_slash_rate = 500
-
-# Governance parameters.
-[gov_params]
-# minimum amount of xan token to lock
-min_proposal_fund = 500
-# proposal code size in kibibytes (KiB)
-max_proposal_code_size = 300000 
-# proposal period length in epoch
-min_proposal_period = 3
-# maximum number of characters in the proposal content
-max_proposal_content_size = 10000
-# minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6 
-
-# Treasury parameters
-[treasury_params]
-max_proposal_fund_transfer = 5000

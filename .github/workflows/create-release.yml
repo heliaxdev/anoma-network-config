@@ -1,0 +1,45 @@
+name: Create new chain release
+
+on: 
+  repository_dispatch:
+    types: [release]
+  workflow_dispatch:
+    inputs:
+      chain-id:
+        description: 'The chain id'
+        required: true
+
+permissions:
+  id-token: write
+  contents: write
+
+env:
+  GIT_LFS_SKIP_SMUDGE: 1
+  CHAIN_BUCKET: namada-chain-data-master
+
+jobs:
+  release:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::375643557360:role/anoma-github-action-ci-master
+          aws-region: eu-west-1
+      - name: Download chain data
+        run: aws s3 cp s3://$CHAIN_BUCKET/${{ github.event.client_payload.chain-id || github.event.inputs.chain-id }}.tar.gz .
+      - name: Create new chain release 
+        run: |
+          echo "$GITHUB_TOKEN" > .githubtoken
+          unset GITHUB_TOKEN
+          gh auth login --with-token < .githubtoken
+          ./release.sh ${{ github.event.client_payload.chain-id || github.event.inputs.chain-id }}.tar.gz ${{ github.event.client_payload.chain-id || github.event.inputs.chain-id }} --prerelease
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

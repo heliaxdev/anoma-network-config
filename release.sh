@@ -31,11 +31,11 @@ if [ -n "$EXTRA_ARG" ] ; then
     gh release create "$CHAIN_ID" "$ARCHIVE" \
         --title "$CHAIN_ID" \
         --notes "Released network with chain ID: $CHAIN_ID" \
-        --repo heliaxdev/anoma-network-config \
+        --repo Fraccaman/anoma-network-config \
         $EXTRA_ARG
 else
     gh release create "$CHAIN_ID" "$ARCHIVE" \
         --title "$CHAIN_ID" \
         --notes "Released network with chain ID: $CHAIN_ID" \
-        --repo heliaxdev/anoma-network-config
+        --repo Fraccaman/anoma-network-config
 fi

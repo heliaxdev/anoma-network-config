@@ -1,9 +1,10 @@
-genesis_time = "2021-10-18T08:30:00.00Z"
+# Test network
+genesis_time = "2021-12-20T15:00:00.00Z"
 
-# 10 genesis validators.
+# 6 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000 # corresponds to 2 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -11,17 +12,13 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "34.241.207.169:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-1"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
+net_address = "54.75.164.59:26656"
+# A seed node is not part of the gossipsub and hence cannot run matchmakers
+intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -29,7 +26,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "34.246.247.108:26656"
+net_address = "34.245.246.139:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-2"
 # A matchmaker WASM program
@@ -39,7 +36,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -47,7 +44,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "34.248.153.73:26656"
+net_address = "54.78.40.25:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-3"
 # A matchmaker WASM program
@@ -57,7 +54,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -65,7 +62,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "52.19.33.147:26656"
+net_address = "3.248.99.184:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-4"
 # A matchmaker WASM program
@@ -75,7 +72,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-5]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -83,7 +80,7 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "52.30.6.192:26656"
+net_address = "34.246.22.83:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-5"
 # A matchmaker WASM program
@@ -93,7 +90,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-6]
 # Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
+tokens = 2000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -101,81 +98,9 @@ validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "54.194.76.54:26656"
+net_address = "79.125.69.216:26656"
 # This has to be an alias of one of the established accounts
 matchmaker_account = "matchmaker-6"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-7]
-# Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "54.216.42.24:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-7"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-8]
-# Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "54.220.207.161:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-8"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-9]
-# Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "54.77.54.205:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-9"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
-
-[validator.validator-10]
-# Validator's token balance at genesis.
-tokens = 20000000 # corresponds to 20_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "99.81.101.134:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-10"
 # A matchmaker WASM program
 matchmaker_code = "wasm/mm_token_exch.wasm"
 # A transaction WASM code used by the matchmaker
@@ -227,9 +152,6 @@ vp = "vp_token"
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
 # Some established accounts present at genesis.
-[established.matchmaker-1]
-vp = "vp_user"
-
 [established.matchmaker-2]
 vp = "vp_user"
 
@@ -245,18 +167,6 @@ vp = "vp_user"
 [established.matchmaker-6]
 vp = "vp_user"
 
-[established.matchmaker-7]
-vp = "vp_user"
-
-[established.matchmaker-8]
-vp = "vp_user"
-
-[established.matchmaker-9]
-vp = "vp_user"
-
-[established.matchmaker-10]
-vp = "vp_user"
-
 [established.faucet]
 address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
 vp = "vp_testnet_faucet"
@@ -267,18 +177,14 @@ vp = "vp_testnet_faucet"
 [wasm.vp_user]
 # filename (relative to wasm path used by the node)
 filename = "vp_user.wasm"
-# SHA-256 hash of the wasm file
-sha256 = "73bbcf99b00b481b9cc5bac1d5a80a1647f3a30fd7de44b25bd4acfbaf6802df"
 
 # Token VP
 [wasm.vp_token]
 filename = "vp_token.wasm"
-sha256 = "9c83578e4a7c8839f87ed1d5efa676b2c0e40ce52832ca2a0b044955f6355e0b"
 
 # Faucet VP
 [wasm.vp_testnet_faucet]
 filename = "vp_testnet_faucet.wasm"
-sha256 = "6ef0f5ab15a7ce6b7352490524378f7160d0fb3050b7295e8d7f64cf6f4ea03f"
 
 # General protocol parameters.
 [parameters]
@@ -286,6 +192,8 @@ sha256 = "6ef0f5ab15a7ce6b7352490524378f7160d0fb3050b7295e8d7f64cf6f4ea03f"
 min_num_of_blocks = 10
 # Minimum duration of an epoch (in seconds).
 min_duration = 60
+# Maximum expected time per block (in seconds).
+max_expected_time_per_block = 30
 
 # Proof of stake parameters.
 [pos_params]

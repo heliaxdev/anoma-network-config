@@ -71,7 +71,6 @@ matchmaker_code = "wasm/mm_token_exch.wasm"
 matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 # Some tokens present at genesis.
-
 [token.XAN]
 address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
 vp = "vp_token"
@@ -187,9 +186,8 @@ min_proposal_period = 3
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6 
+min_proposal_grace_epochs = 6
 
 # Treasury parameters
 [treasury_params]
 max_proposal_fund_transfer = 5000
-

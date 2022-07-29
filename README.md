@@ -1,9 +1,6 @@
 # Anoma networks configuration
 
-The directory `src` contains the source genesis files:
-
-- `anoma-feigenbaum-0.toml` - public testnet "Feigenbaum"
-- `anoma-devnet.toml` - Anoma devs internal testnet
+The directory `templates` contains some genesis templates.
 
 From the source genesis files, we generate the final genesis files, chain ID and configurations for validators. This also generates all the keys and addresses that haven't been pre-filled in the source.
 
