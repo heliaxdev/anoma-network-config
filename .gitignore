@@ -1,3 +1,4 @@
 # ignore what init-network generates
 /.anoma
 *.tar.gz
+.DS_Store

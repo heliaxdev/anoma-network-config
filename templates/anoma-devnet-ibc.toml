@@ -4,7 +4,7 @@ genesis_time = "2021-12-20T15:00:00.00Z"
 # 4 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -18,7 +18,7 @@ intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -36,7 +36,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -54,7 +54,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -71,7 +71,6 @@ matchmaker_code = "wasm/mm_token_exch.wasm"
 matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 # Some tokens present at genesis.
-
 [token.XAN]
 address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
 vp = "vp_token"
@@ -187,9 +186,8 @@ min_proposal_period = 3
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6 
+min_grace_epoch = 6
 
 # Treasury parameters
 [treasury_params]
 max_proposal_fund_transfer = 5000
-
