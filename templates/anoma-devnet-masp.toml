@@ -4,7 +4,7 @@ genesis_time = "2021-12-20T15:00:00.00Z"
 # 4 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 6714000000 # corresponds to 6_714_000 voting power
+tokens = 18446744073709 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -18,7 +18,7 @@ intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -36,7 +36,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -54,7 +54,7 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 6714000000
+tokens = 18446744073709
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
@@ -155,9 +155,9 @@ filename = "vp_masp.wasm"
 # General protocol parameters.
 [parameters]
 # Minimum number of blocks in an epoch.
-min_num_of_blocks = 100 # block every 10s
+min_num_of_blocks = 100
 # Minimum duration of an epoch (in seconds).
-min_duration = 1200 # 20 min
+min_duration = 1200
 # Maximum expected time per block (in seconds).
 max_expected_time_per_block = 30
 
@@ -183,20 +183,3 @@ duplicate_vote_slash_rate = 500
 # Portion of a validator's stake that should be slashed on a light
 # client attack (in basis points, i.e., 500 = 5%).
 light_client_attack_slash_rate = 500
-
-# Governance parameters.
-[gov_params]
-# minimum amount of xan token to lock
-min_proposal_fund = 500
-# proposal code size in kibibytes (KiB)
-max_proposal_code_size = 300000 
-# proposal period length in epoch
-min_proposal_period = 3
-# maximum number of characters in the proposal content
-max_proposal_content_size = 10000
-# minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6 
-
-# Treasury parameters
-[treasury_params]
-max_proposal_fund_transfer = 5000
