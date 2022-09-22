@@ -13,8 +13,6 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "52.210.23.30:26656"
-# A seed node is not part of the gossipsub and hence cannot run matchmakers
-intent_gossip_seed = true
 
 [validator.validator-2]
 # Validator's token balance at genesis.
@@ -27,12 +25,6 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "63.32.203.239:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-2"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
@@ -45,12 +37,6 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "54.195.72.213:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-3"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
@@ -63,12 +49,6 @@ validator_vp = "vp_user"
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "79.125.112.218:26656"
-# This has to be an alias of one of the established accounts
-matchmaker_account = "matchmaker-4"
-# A matchmaker WASM program
-matchmaker_code = "wasm/mm_token_exch.wasm"
-# A transaction WASM code used by the matchmaker
-matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 # Some tokens present at genesis.
 [token.XAN]
@@ -115,15 +95,6 @@ vp = "vp_token"
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
 # Some established accounts present at genesis.
-[established.matchmaker-2]
-vp = "vp_user"
-
-[established.matchmaker-3]
-vp = "vp_user"
-
-[established.matchmaker-4]
-vp = "vp_user"
-
 [established.faucet]
 address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
 vp = "vp_testnet_faucet"
