@@ -72,10 +72,10 @@ matchmaker_tx = "wasm/tx_from_intent.wasm"
 
 # Some tokens present at genesis.
 
-[token.NAM]
+[token.XAN]
 address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
 vp = "vp_token"
-[token.NAM.balances]
+[token.XAN.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 atest1v4ehgw36xaryysfsx5unvve4g5my2vjz89p52sjxxgenzd348yuyyv3hg3pnjs35g5unvde4ca36y5 = 9223372036854
 
