@@ -124,6 +124,10 @@ atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tc
 address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
 vp = "vp_testnet_faucet"
 
+[established.masp]
+address = "atest1v4ehgw36xaryysfsx5unvve4g5my2vjz89p52sjxxgenzd348yuyyv3hg3pnjs35g5unvde4ca36y5"
+vp = "vp_masp"
+
 # Wasm VP definitions
 
 # Default user VP
@@ -138,6 +142,10 @@ filename = "vp_token.wasm"
 # Faucet VP
 [wasm.vp_testnet_faucet]
 filename = "vp_testnet_faucet.wasm"
+
+# MASP VP
+[wasm.vp_masp]
+filename = "vp_masp.wasm"
 
 # General protocol parameters.
 [parameters]
