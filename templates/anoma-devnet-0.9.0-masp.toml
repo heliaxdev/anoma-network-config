@@ -38,42 +38,6 @@ staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "54.78.40.25:26656"
 
-[validator.validator-4]
-# Validator's token balance at genesis.
-tokens = 1844674407370
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "3.248.99.184:26656"
-
-[validator.validator-5]
-# Validator's token balance at genesis.
-tokens = 1844674407370
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "34.246.22.83:26656"
-
-[validator.validator-6]
-# Validator's token balance at genesis.
-tokens = 1844674407370
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "79.125.69.216:26656"
-
 # Some tokens present at genesis.
 
 [token.NAM]
