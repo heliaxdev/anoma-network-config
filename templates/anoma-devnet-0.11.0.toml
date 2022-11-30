@@ -57,10 +57,10 @@ net_address = "79.125.112.218:26656"
 
 # Some tokens present at genesis.
 
-[token.XAN]
+[token.NAM]
 address = "atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5"
 vp = "vp_token"
-[token.XAN.balances]
+[token.NAM.balances]
 atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3 = 9223372036854
 
 [token.BTC]
