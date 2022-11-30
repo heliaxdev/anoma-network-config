@@ -120,6 +120,10 @@ filename = "vp_implicit.wasm"
 # filename (relative to wasm path used by the node)
 filename = "vp_user.wasm"
 
+# Validator VP
+[wasm.vp_validator]
+filename = "vp_validator.wasm"
+
 # Token VP
 [wasm.vp_token]
 filename = "vp_token.wasm"
