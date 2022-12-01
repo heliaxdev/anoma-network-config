@@ -21,11 +21,15 @@ net_address = "52.210.23.30:26656"
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 1844674407370
+tokens = 1844674407370 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
@@ -33,11 +37,15 @@ net_address = "63.32.203.239:26656"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 1844674407370
+tokens = 1844674407370 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
@@ -45,13 +53,16 @@ net_address = "54.195.72.213:26656"
 
 [validator.validator-4]
 # Validator's token balance at genesis.
-tokens = 1844674407370
+tokens = 1844674407370 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 1000000000000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
-staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "79.125.112.218:26656"
 
