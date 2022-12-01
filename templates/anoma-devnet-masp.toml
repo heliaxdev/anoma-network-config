@@ -4,9 +4,9 @@ genesis_time = "2021-12-20T15:00:00.00Z"
 # 4 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 1844674407370 # corresponds to 6_714_000 voting power
+tokens = 100000 # corresponds to 6_714_000 voting power
 # Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
+non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_user"
 # VP for the staking reward account
@@ -16,9 +16,9 @@ net_address = "52.210.23.30:26656"
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 1844674407370
+tokens = 100000
 # Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
+non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_user"
 # VP for the staking reward account
@@ -28,27 +28,15 @@ net_address = "63.32.203.239:26656"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
-tokens = 1844674407370
+tokens = 100000
 # Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
+non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_user"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "54.195.72.213:26656"
-
-[validator.validator-4]
-# Validator's token balance at genesis.
-tokens = 1844674407370
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_user"
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
-# Public IP:port address
-net_address = "79.125.112.218:26656"
 
 # Some tokens present at genesis.
 
