@@ -2,7 +2,7 @@
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
 
-# 4 genesis validators.
+# 3 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
 tokens = 1844674407370 # corresponds to 6_714_000 voting power
@@ -50,21 +50,6 @@ max_commission_rate_change = 0.01
 staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "54.195.72.213:26656"
-
-[validator.validator-4]
-# Validator's token balance at genesis.
-tokens = 1844674407370 # corresponds to 6_714_000 voting power
-# Amount of the validator's genesis token balance which is not staked.
-non_staked_balance = 1000000000000
-# VP for the validator account
-validator_vp = "vp_validator"
-# Commission rate for rewards
-commission_rate = 0.05
-# Maximum change per epoch in the commission rate
-max_commission_rate_change = 0.01
-# VP for the staking reward account
-# Public IP:port address
-net_address = "79.125.112.218:26656"
 
 # Some tokens present at genesis.
 
@@ -173,7 +158,7 @@ pipeline_len = 2
 # for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
 unbonding_len = 4
 # Votes per fundamental staking token (namnam)
-tm_votes_per_token = 1
+tm_votes_per_token = 0.1
 # Reward for proposing a block.
 block_proposer_reward = 0.125
 # Reward for voting on a block.
