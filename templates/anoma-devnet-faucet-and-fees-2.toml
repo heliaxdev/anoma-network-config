@@ -3,7 +3,6 @@ genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
 faucet_pow_difficulty = 3
 faucet_withdrawal_limit = "1000"
-wrapper_tx_fees = 200
 
 # 3 genesis validators.
 [validator.validator-1]
@@ -149,6 +148,8 @@ epochs_per_year = 26_280 # ~1200 sec epoch duration (60*60*24*365 / 1200)
 pos_gain_p = 0.1
 # The D gain factor in the Proof of Stake rewards controller
 pos_gain_d = 0.1
+# The wrapper tx fixed fees
+wrapper_tx_fees = 200
 
 # Proof of stake parameters.
 [pos_params]
