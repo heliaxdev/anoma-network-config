@@ -1,7 +1,7 @@
 # Developer network
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
-faucet_pow_difficulty = 4
+faucet_pow_difficulty = 3
 faucet_withdrawal_limit = "1000"
 wrapper_tx_fees = 200
 
