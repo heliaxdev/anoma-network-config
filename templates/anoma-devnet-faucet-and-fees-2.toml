@@ -1,7 +1,7 @@
 # Developer network
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
-faucet_pow_difficulty = 3
+faucet_pow_difficulty = 0
 faucet_withdrawal_limit = "1000"
 
 # 3 genesis validators.
@@ -149,7 +149,7 @@ pos_gain_p = 0.1
 # The D gain factor in the Proof of Stake rewards controller
 pos_gain_d = 0.1
 # The wrapper tx fixed fees
-wrapper_tx_fees = "200"
+wrapper_tx_fees = "100"
 
 # Proof of stake parameters.
 [pos_params]
