@@ -151,7 +151,7 @@ pos_gain_d = 0.1
 # The wrapper tx fixed fees
 wrapper_tx_fees = "100"
 # The max size of blocks in bytes
-max_proposal_bytes = "5242880"
+max_proposal_bytes = 5242880
 
 # Proof of stake parameters.
 [pos_params]
