@@ -1,4 +1,4 @@
-# Test network
+# Developer network
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
 faucet_pow_difficulty = 2
@@ -7,27 +7,35 @@ faucet_withdrawal_limit = "1000"
 # 3 genesis validators.
 [validator.validator-1]
 # Validator's token balance at genesis.
-tokens = 100000 # corresponds to 2 voting power
+tokens = 100000 
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 100000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "54.75.164.59:26656"
+net_address = "52.210.23.30:26656"
 
 [validator.validator-2]
 # Validator's token balance at genesis.
-tokens = 100000
+tokens = 100000 
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 100000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "34.245.246.139:26656"
+net_address = "63.32.203.239:26656"
 
 [validator.validator-3]
 # Validator's token balance at genesis.
@@ -35,11 +43,15 @@ tokens = 100000
 # Amount of the validator's genesis token balance which is not staked.
 non_staked_balance = 100000
 # VP for the validator account
-validator_vp = "vp_user"
+validator_vp = "vp_validator"
+# Commission rate for rewards
+commission_rate = 0.05
+# Maximum change per epoch in the commission rate
+max_commission_rate_change = 0.01
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
-net_address = "54.78.40.25:26656"
+net_address = "54.195.72.213:26656"
 
 # Some tokens present at genesis.
 
@@ -91,13 +103,17 @@ atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tc
 address = "atest1v4ehgw36gc6yxvpjxccyzvphxycrxw2xxsuyydesxgcnjs3cg9znwv3cxgmnj32yxy6rssf5tcqjm3"
 vp = "vp_testnet_faucet"
 
+[established.masp]
+address = "atest1v4ehgw36xaryysfsx5unvve4g5my2vjz89p52sjxxgenzd348yuyyv3hg3pnjs35g5unvde4ca36y5"
+vp = "vp_masp"
+
 # Wasm VP definitions
 
 # Implicit VP
 [wasm.vp_implicit]
 filename = "vp_implicit.wasm"
 
-# Default user VP
+# Default user VP in established accounts
 [wasm.vp_user]
 # filename (relative to wasm path used by the node)
 filename = "vp_user.wasm"
