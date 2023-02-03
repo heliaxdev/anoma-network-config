@@ -1,5 +1,6 @@
 # Test network
 genesis_time = "2021-12-20T15:00:00.00Z"
+native_token = "NAM"
 
 # 6 genesis validators.
 [validator.validator-1]
