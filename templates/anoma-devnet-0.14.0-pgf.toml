@@ -154,6 +154,8 @@ wrapper_tx_fees = "100"
 max_proposal_bytes = 5242880
 vp_whitelist = []
 tx_whitelist = []
+max_public_key_per_account = 15
+
 # Proof of stake parameters.
 [pos_params]
 # Maximum number of active validators.
