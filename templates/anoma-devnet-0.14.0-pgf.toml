@@ -137,9 +137,9 @@ filename = "vp_masp.wasm"
 # General protocol parameters.
 [parameters]
 # Minimum number of blocks in an epoch.
-min_num_of_blocks = 1
+min_num_of_blocks = 5
 # Maximum expected time per block (in seconds).
-max_expected_time_per_block = 1
+max_expected_time_per_block = 11
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
@@ -186,7 +186,7 @@ light_client_attack_min_slash_rate = 0.001
 # Governance parameters.
 [gov_params]
 # minimum amount of xan token to lock
-min_proposal_fund = 500
+min_proposal_fund = 100
 # proposal code size in kibibytes (KiB)
 max_proposal_code_size = 300000
 # min proposal period length in epochs
@@ -196,7 +196,7 @@ max_proposal_period = 27
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
-min_proposal_grace_epochs = 6
+min_proposal_grace_epochs = 0
 
 [pgf_params]
 # max epochs for a valid candidacy
