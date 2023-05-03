@@ -143,7 +143,7 @@ max_expected_time_per_block = 11
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 42048000 # ~60 sec epoch duration (60*60*24*365 / 60)
+epochs_per_year = 2102400 # ~1200 sec epoch duration (60*60*24*365 / 1200)
 # The P gain factor in the Proof of Stake rewards controller
 pos_gain_p = 0.1
 # The D gain factor in the Proof of Stake rewards controller
@@ -159,7 +159,7 @@ max_public_key_per_account = 15
 max_block_gas = 1000000000
 
 [parameters.gas_cost]
-"atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5" = 1
+"atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5" = "1"
 
 # Proof of stake parameters.
 [pos_params]
