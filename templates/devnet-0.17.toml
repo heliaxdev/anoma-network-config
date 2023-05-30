@@ -16,8 +16,6 @@ validator_vp = "vp_validator"
 commission_rate = 0.05
 # Maximum change per epoch in the commission rate
 max_commission_rate_change = 0.01
-# VP for the staking reward account
-staking_reward_vp = "vp_user"
 # Public IP:port address
 net_address = "52.210.23.30:26656"
 
@@ -170,7 +168,7 @@ pipeline_len = 2
 # for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
 unbonding_len = 4
 # Votes per fundamental staking token (namnam)
-tm_votes_per_token = 0.1
+tm_votes_per_token = 1.0
 # Reward for proposing a block.
 block_proposer_reward = 0.125
 # Reward for voting on a block.
