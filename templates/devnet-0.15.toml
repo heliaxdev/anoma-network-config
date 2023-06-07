@@ -1,7 +1,7 @@
 # Developer network
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
-faucet_pow_difficulty = 0
+faucet_pow_difficulty = 1
 faucet_withdrawal_limit = "1000"
 
 # 3 genesis validators.
@@ -154,7 +154,6 @@ wrapper_tx_fees = "5"
 max_proposal_bytes = 5242880
 vp_whitelist = []
 tx_whitelist = []
-max_public_key_per_account = 15
 
 # Proof of stake parameters.
 [pos_params]
@@ -190,7 +189,7 @@ min_proposal_fund = 100
 # proposal code size in kibibytes (KiB)
 max_proposal_code_size = 300000
 # min proposal period length in epochs
-min_proposal_period = 3
+min_proposal_period = 2
 # max proposal period length in epochs
 max_proposal_period = 6
 # maximum number of characters in the proposal content
