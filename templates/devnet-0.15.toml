@@ -191,7 +191,7 @@ max_proposal_code_size = 300000
 # min proposal period length in epochs
 min_proposal_period = 2
 # max proposal period length in epochs
-max_proposal_period = 6
+max_proposal_period = 400
 # maximum number of characters in the proposal content
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
