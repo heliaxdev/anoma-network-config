@@ -149,7 +149,7 @@ pos_gain_p = 0.1
 # The D gain factor in the Proof of Stake rewards controller
 pos_gain_d = 0.1
 # The wrapper tx fixed fees
-wrapper_tx_fees = "5"
+wrapper_tx_fees = "0"
 # The max size of blocks in bytes
 max_proposal_bytes = 5242880
 vp_whitelist = []
