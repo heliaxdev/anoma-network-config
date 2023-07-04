@@ -70,7 +70,9 @@ Daewon = "1000000"
 Ester = "1000000"
 faucet = "9223372036854"
 "faucet.public_key" = "100"
-"validator-0.public_key" = "100"
+"validator-1.public_key" = "1000"
+"validator-2.public_key" = "1000"
+"validator-3.public_key" = "1000"
 
 [token.BTC]
 address = "atest1v4ehgw36xdzryve5gsc52veeg5cnsv2yx5eygvp38qcrvd29xy6rys6p8yc5xvp4xfpy2v694wgwcp"
