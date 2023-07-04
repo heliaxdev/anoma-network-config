@@ -13,9 +13,9 @@ non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_validator"
 # Commission rate for rewards
-commission_rate = 0.05
+commission_rate = "0.05"
 # Maximum change per epoch in the commission rate
-max_commission_rate_change = 0.01
+max_commission_rate_change = "0.01"
 # Public IP:port address
 net_address = "52.210.23.30:26656"
 
@@ -27,9 +27,9 @@ non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_validator"
 # Commission rate for rewards
-commission_rate = 0.05
+commission_rate = "0.05"
 # Maximum change per epoch in the commission rate
-max_commission_rate_change = 0.01
+max_commission_rate_change = "0.01"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
@@ -43,9 +43,9 @@ non_staked_balance = 100000
 # VP for the validator account
 validator_vp = "vp_validator"
 # Commission rate for rewards
-commission_rate = 0.05
+commission_rate = "0.05"
 # Maximum change per epoch in the commission rate
-max_commission_rate_change = 0.01
+max_commission_rate_change = "0.01"
 # VP for the staking reward account
 staking_reward_vp = "vp_user"
 # Public IP:port address
