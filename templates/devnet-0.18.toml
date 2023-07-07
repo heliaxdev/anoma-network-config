@@ -210,7 +210,7 @@ tx_whitelist = []
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 31_536_000
+epochs_per_year = 105_120 # 5 minute epochs
 # The P gain factor in the Proof of Stake rewards controller
 pos_gain_p = "0.1"
 # The D gain factor in the Proof of Stake rewards controller
