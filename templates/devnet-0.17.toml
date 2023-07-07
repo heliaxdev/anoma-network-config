@@ -141,7 +141,7 @@ max_expected_time_per_block = 11
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
 # Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 262800 # ~120 sec epoch duration (60*60*24*365 / 120)
+epochs_per_year = 105_120 # ~600 sec epoch duration (60*60*24*365 / 600)
 # The P gain factor in the Proof of Stake rewards controller
 pos_gain_p = 0.1
 # The D gain factor in the Proof of Stake rewards controller
