@@ -263,3 +263,7 @@ max_proposal_period = 27
 max_proposal_content_size = 10000
 # minimum epochs between end and grace epoch
 min_proposal_grace_epochs = 6
+
+[ethereum_bridge_params]
+min_confirmations = 1
+eth_start_height =  "0"
