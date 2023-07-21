@@ -2,7 +2,7 @@
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
 faucet_pow_difficulty = 0
-faucet_withdrawal_limit = "100000"
+faucet_withdrawal_limit = "10000000000000"
 
 # 3 genesis validators.
 [validator.validator-1]
@@ -68,7 +68,7 @@ Christel = "1000000"
 "Christel.public_key" = "100"
 Daewon = "1000000"
 Ester = "1000000"
-faucet = "9223372036854"
+faucet = "922337203685400000000"
 "faucet.public_key" = "100"
 "validator-1.public_key" = "1000"
 "validator-2.public_key" = "1000"
