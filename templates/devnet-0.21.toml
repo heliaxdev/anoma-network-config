@@ -2,7 +2,7 @@
 genesis_time = "2021-12-20T15:00:00.00Z"
 native_token = "NAM"
 faucet_pow_difficulty = 0
-faucet_withdrawal_limit = "1000"
+faucet_withdrawal_limit = "1000000000000000" # MAKE SURE TO CHANGE FOR TESTNET
 
 # 3 genesis validators.
 [validator.validator-1]
