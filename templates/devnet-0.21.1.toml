@@ -254,7 +254,7 @@ max_signatures_per_transaction = 15
 # Proof of stake parameters.
 [pos_params]
 # Maximum number of consensus validators.
-max_validator_slots = 128
+max_validator_slots = 256
 # Pipeline length (in epochs). Any change in the validator set made in
 # epoch 'n' will become active in epoch 'n + pipeline_len'.
 pipeline_len = 2
