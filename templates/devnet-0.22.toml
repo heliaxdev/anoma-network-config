@@ -236,7 +236,7 @@ min_num_of_blocks = 4
 max_expected_time_per_block = 30
 # Max payload size, in bytes, for a tx batch proposal.
 max_proposal_bytes = 22020096
-# Max amount of gas per block 
+# Max amount of gas per block
 max_block_gas = 20000000
 # Fee unshielding gas limit
 fee_unshielding_gas_limit = 20000
@@ -248,8 +248,10 @@ vp_whitelist = []
 tx_whitelist = []
 # Implicit VP WASM name
 implicit_vp = "vp_implicit"
-# Expected number of epochs per year (also sets the min duration of an epoch in seconds)
-epochs_per_year = 105_120 # 5 minute epochs
+# Expected number of epochs per year (also sets the min duration of an epoch in seconds).
+# Remember to set this to a more reasonable number for production networks. Also, expect most masp
+# txs to fail due to epoch boundary errors.
+epochs_per_year = 31_536_000
 # The P gain factor in the Proof of Stake rewards controller
 pos_gain_p = "0.1"
 # The D gain factor in the Proof of Stake rewards controller
@@ -258,19 +260,19 @@ pos_gain_d = "0.1"
 max_signatures_per_transaction = 15
 
 [parameters.gas_cost]
-"atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5" = "0.002000"
+"atest1v4ehgw36x3prswzxggunzv6pxqmnvdj9xvcyzvpsggeyvs3cg9qnywf589qnwvfsg5erg3fkl09rg5" = "0.000001"
 
 # Proof of stake parameters.
 [pos_params]
 # Maximum number of consensus validators.
-max_validator_slots = 256
+max_validator_slots = 128
 # Pipeline length (in epochs). Any change in the validator set made in
 # epoch 'n' will become active in epoch 'n + pipeline_len'.
 pipeline_len = 2
 # Unbonding length (in epochs). Validators may have their stake slashed
 # for a fault in epoch 'n' up through epoch 'n + unbonding_len'.
 unbonding_len = 3
-# Votes per fundamental staking token (namnam)
+# Votes per fundamental staking token (namnam) - for testnets this should be 1. For e2e toml, a decimal is used for testing purposes.
 tm_votes_per_token = "0.1"
 # Reward for proposing a block.
 block_proposer_reward = "0.125"
@@ -309,7 +311,7 @@ max_proposal_content_size = 10000
 min_proposal_grace_epochs = 6
 
 [pgf_params]
-# list of steward address at genesis
+# list of steward address at genezis
 stewards = []
 # inflation rate for pgf fundings
 pgf_inflation_rate = "0.1"
