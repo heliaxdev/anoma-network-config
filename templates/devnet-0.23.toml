@@ -206,8 +206,6 @@ vp = "vp_masp"
 
 # Wasm VP definitions
 
-# Wasm VP definitions
-
 # Implicit VP
 [wasm.vp_implicit]
 filename = "vp_implicit.wasm"
@@ -220,10 +218,6 @@ filename = "vp_user.wasm"
 [wasm.vp_validator]
 # filename (relative to wasm path used by the node)
 filename = "vp_validator.wasm"
-
-# Faucet VP
-[wasm.vp_testnet_faucet]
-filename = "vp_testnet_faucet.wasm"
 
 # MASP VP
 [wasm.vp_masp]
