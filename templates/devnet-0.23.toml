@@ -69,7 +69,6 @@ Christel = "1000000"
 Daewon = "1000000"
 Ester = "1000000"
 faucet = "922337203685400000000"
-"faucet.public_key" = "100"
 "validator-1.public_key" = "1000"
 "validator-2.public_key" = "1000"
 "validator-3.public_key" = "1000"
@@ -183,8 +182,7 @@ kp_gain_nom = "0.1"
 locked_ratio_target_key = "0.6667"
 
 # Some established accounts present at genesis.
-[established.faucet]
-vp = "vp_user"
+[implicit.faucet]
 
 [established.Albert]
 vp = "vp_user"
